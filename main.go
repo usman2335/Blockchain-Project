@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	// fmt.Print("hello")
+	// fmt.Print("hello") test
 	port := 1000 + rand.Intn(1000)
 	fmt.Print(port, "\n")
 	// Step 1: Create a new node (port is randomized)
